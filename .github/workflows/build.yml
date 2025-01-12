@@ -4,6 +4,7 @@ name: build-golang-app
 on: 
   push: 
     branches: ["latest"]
+  workflow_dispatch:  
 
 env: 
   REGISTRY: ghcr.io
